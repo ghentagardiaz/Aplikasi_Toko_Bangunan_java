@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>C:\Users\ghent\OneDrive\Documents\tubes pbo\App TokoBangunan\AppTokbang\bin\TuBes_DafaFadhila_GhentaGardiaz_PBO2026.jar</jar>
+  <outfile>C:\Users\ghent\OneDrive\Documents\tubes pbo\App TokoBangunan\AppTokbang\bin\Toko Bangunan.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl></downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon>C:\Users\ghent\OneDrive\Documents\tubes pbo\App TokoBangunan\AppTokbang\bin\logo_tokbar.ico</icon>
+  <singleInstance>
+    <mutexName>App Toko Bangunan</mutexName>
+    <windowTitle>AppToko Bangunan</windowTitle>
+  </singleInstance>
+  <classPath>
+    <mainClass>view.Form_Login</mainClass>
+    <cp>lib/AbsoluteLayout.jar</cp>
+    <cp>lib/mysql-connector-j-9.2.0.jar</cp>
+  </classPath>
+  <jre>
+    <path>C:\Program Files\Java\jdk-22</path>
+    <requiresJdk>false</requiresJdk>
+    <requires64Bit>false</requires64Bit>
+    <minVersion>1.8.0</minVersion>
+    <maxVersion></maxVersion>
+  </jre>
+</launch4jConfig>
